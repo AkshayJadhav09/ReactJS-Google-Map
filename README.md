@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How To Run 
 
-## Available Scripts
+### First Step :
 
-In the project directory, you can run:
+1. You need to create your react application.
+2. Then install `npm i -S @react-google-maps/api` or `yarn add @react-google-maps/api`.
 
-### `npm start`
+### Second Step : Get the API key
+To get an API key:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Go to the Google Cloud Platform Console.
+2. Click the project drop-down and select or create the project for which you want to add an API key.
+3. Click the menu button  and select APIs & Services > Credentials.
+4. On the Credentials page, click Create credentials > API key.
+5. The API key created dialog displays your newly created API key.
+6. Click Close.
+The new API key is listed on the Credentials page under API keys.
+(Remember to restrict the API key before using it in production.)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Third Step : Add API key on to the Project.
+Enjoy.....
 
-### `npm test`
+## If in your project occure error like API not enable
+Then Go to the Google Cloud Platform Console. 
+ - Enable one or more APIs or SDKs
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To enable one or more APIs or SDKs:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Go to the Google Cloud Platform Console.
+2. Click the menu button  and select APIs & Services > Library.
+3. On the API Library page, locate Maps and click VIEW ALL (15).
+4. The 15 Google Maps Platform APIs and SDKs that you can enable are displayed.
+5. On the Maps page, click the API or SDK you want to enable.
+6. Note: Enabling the Places API also enables the Places SDK for Android and Places SDK for iOS.
+7. Back on the API Library page, under the name of the API or SDK you selected:
+8. If the button says ENABLE, click the button to enable the API or SDK.
+9. If the button says MANAGE, the API or SDK is already enabled and you don't need to do anything further.
+Note: Clicking either button will display the dashboard for the API or SDK. (Click the DISABLE button to remove the API or SDK from this project.)
+10. Repeat Steps 2-5 for each API or SDK you want to enable.
