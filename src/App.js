@@ -6,7 +6,7 @@ class App extends React.Component {
     render() {
         return (
             <LoadScript
-                googleMapsApiKey = "AIzaSyDoeXTFrYynPhkkL6tkHsBQqkXal9IVBgs"
+                googleMapsApiKey = "Your google map Api key "
             >
                 <GoogleMap
                     mapContainerStyle = {{width:'500px', height:'500px'}}
