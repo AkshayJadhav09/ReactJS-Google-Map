@@ -3,7 +3,7 @@
 ### First Step :
 
 1. You need to create your react application.
-2. Then install `npm i -S @react-google-maps/api` or `yarn add @react-google-maps/api`.
+2. Then install `npm i -S @react-google-maps/api` or `yarn add @react-google-maps/api`. 
 
 ### Second Step : Get the API key
 To get an API key:
